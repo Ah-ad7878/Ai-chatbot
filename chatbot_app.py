@@ -41,6 +41,11 @@ def chatbot_response(user_input):
         "flutter": "Flutter is an open-source UI framework by Google that allows you to build beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.",
         "dart": "Dart is a modern, object-oriented programming language developed by Google. It's designed for building fast, multi-platform applications and is the language used in Flutter.",
         "java": "Java is a widely-used, object-oriented programming language known for its portability and use in building large-scale applications, Android apps, and enterprise software.",
+        "iub": "IUB commonly refers to an intrauterine device used for long-term birth control. If you meant something else, feel free to ask with more details.",
+        "pakistan university": "Pakistan has many universities, including top national institutions like the National University of Sciences and Technology (NUST), Lahore University of Management Sciences (LUMS), and the University of the Punjab.",
+        "pakistan cities": "Major cities in Pakistan include Karachi, Lahore, Islamabad, Rawalpindi, Peshawar, Quetta, and Multan. Each city has its own cultural, economic, and historical importance.",
+        "bahawalpur": "Bahawalpur is a historic city in Punjab, Pakistan, known for its palaces, museums, and nearby Cholistan Desert. It is also an important center for agriculture and education in the region.",
+        "fuji fertilizer": "Fuji Fertilizer is a brand name associated with agricultural nutrients. It usually refers to products designed to improve crop growth and soil health.",
     }
 
     for question, answer in responses.items():
