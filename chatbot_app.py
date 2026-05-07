@@ -66,9 +66,10 @@ def chatbot_response(user_input):
         "what is programming": "Programming is writing instructions for computers.",
         "what is machine learning": "Machine learning allows computers to learn from data.",
         "what is artificial intelligence": "Artificial Intelligence enables machines to simulate human intelligence.",
+        "what is knowledge representation": "Knowledge representation in AI is how information is structured and stored so a machine can reason, learn, and make decisions.",
+        "knowledge representation": "Knowledge representation in AI is how information is structured and stored so a machine can reason, learn, and make decisions.",
         "what is mobile app development": "Mobile app development is creating apps for smartphones.",
         "what is web development": "Web development is building websites and web applications.",
-        "what is software engineer": "A software engineer designs and develops software systems.",
         "what is algorithm": "An algorithm is a step-by-step solution to a problem.",
         "what is data structure": "Data structures organize and store data efficiently.",
         "what is oop": "OOP stands for Object-Oriented Programming.",
@@ -97,6 +98,11 @@ def chatbot_response(user_input):
         "what is fuse": "A fuse protects circuits from excessive current.",
         "what is battery": "A battery stores chemical energy and converts it to electrical energy.",
         "what is solar panel": "A solar panel converts sunlight into electricity.",
+        "what is declarative knowledge representation": "This is a type of knowledge representation that stores facts and information. Example = 2+2 = 4 or cat is an animals.",
+        "what is procedural knowledge representation": "This is a type of knowledge representation that tell us how to solve a problem or perform a task. Example = How to make a cup of tea or how to solve a math problem.",
+        "what is semantic network": "This is a type of knowledge representation that shows how different concepts are related to each other. Example = A dog is a mammal, A cat is a mammal, A dog is an animal, A cat is an animal.",
+        "what is meta knowledge representation": "This is a type of knowledge representation that tell us how data is used and managed. Example = A database schema that defines how data is organized and accessed, or a set of rules for how to use a knowledge graph.",
+        "what is heuristic Knowledge representation": "This is a type of knowledge representation which is experinced based knowledge to solve the complex problem. Example = if traffic is heavy, take an alternative route, or if the weather is bad, carry an umbrella.",
     }
 
     for question, answer in responses.items():
